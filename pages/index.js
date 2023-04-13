@@ -30,32 +30,7 @@ const Desktop1 = () => {
         />
       </div>
       <div className={styles.logo1} />
-      <textarea
-        className={styles.socialMediaContainer}
-        placeholder={`
-Social Media :
 
-www.linkedin.com
-
-www.facebook.com
-
-www.instagram.com
-
-www.github.com
-`}
-        autoFocus
-      >
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.blankLine}>Social Media :</p>
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.blankLine}>www.linkedin.com</p>
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.blankLine}>www.facebook.com</p>
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.blankLine}>www.instagram.com</p>
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.blankLine}>www.github.com</p>
-      </textarea>
       <div className={styles.addressContactContainer}>
         <p className={styles.blankLine}>&nbsp;</p>
         <p className={styles.blankLine}>Address :</p>
